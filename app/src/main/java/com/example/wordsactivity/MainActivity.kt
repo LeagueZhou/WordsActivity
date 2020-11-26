@@ -101,7 +101,7 @@ class MainActivity : AppCompatActivity() {
                 override fun onError(error: OCRError) {
                     Log.e("TAG", "AK、SK获取token失败")
                 }
-            }, applicationContext, "TZXFZuyZpzPyPu4CmwGp2TNG","KahmROk9cjuO0eFNzsGRckUpW3kOnfVZ"
+            }, applicationContext, "your ak","your sk"
         )
     }
 
